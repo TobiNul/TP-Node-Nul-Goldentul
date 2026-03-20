@@ -9,7 +9,7 @@ console.clear();
 
 console.log(`Textos de Entrada: "${textoEntrada01}" y "${textoEntrada02}"`);
 
-console.log(`Texto de Salida: "${TROaleucsE}"`);
+console.log(`Texto de Salida: "${textoSalida}"`);
 
 
 function concatInvert (texto1, texto2){
