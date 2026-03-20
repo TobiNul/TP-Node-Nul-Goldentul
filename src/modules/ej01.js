@@ -7,7 +7,7 @@ textoSalida = concatInvert(textoEntrada01, textoEntrada02);
 
 console.clear();
 
-console.log(`Textos de Entrada: "${Escuela}" y "${ORT}"`);
+console.log(`Textos de Entrada: "${textoEntrada01}" y "${textoEntrada02}"`);
 
 console.log(`Texto de Salida: "${TROaleucsE}"`);
 
