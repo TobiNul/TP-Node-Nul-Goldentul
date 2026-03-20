@@ -1,0 +1,21 @@
+let textoEntrada01 = "Escuela", textoEntrada02 = "ORT";
+
+let textoSalida = "";
+
+
+textoSalida = concatInvert(textoEntrada01, textoEntrada02);
+
+console.clear();
+
+console.log(`Textos de Entrada: "${Escuela}" y "${ORT}"`);
+
+console.log(`Texto de Salida: "${TROaleucsE}"`);
+
+
+function concatInvert (texto1, texto2){
+
+    let returnValue = '';
+    returnValue = texto2.reverse && texto1.reverse;
+    return returnValue;
+
+}
