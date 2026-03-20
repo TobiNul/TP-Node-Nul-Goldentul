@@ -11,5 +11,11 @@ console.log(miObjeto);
 
 function parsearUrl(laURL)
 {
-    
+    const miUrl = new URL(laURL);
+
+    return {
+        host: miUrl.origin,
+        pathname: miUrl.pathname,
+        parametros: miUrl.searchParams
+    }
 }
