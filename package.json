@@ -1,0 +1,23 @@
+{
+  "name": "tp-01-nul-goldentul",
+  "version": "1.0.0",
+  "description": "TP de DAI de los pibes en NODE",
+  "homepage": "https://github.com/TobiNul/TP-Node-Nul-Goldentul#readme",
+  "bugs": {
+    "url": "https://github.com/TobiNul/TP-Node-Nul-Goldentul/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiNul/TP-Node-Nul-Goldentul.git"
+  },
+  "license": "ISC",
+  "author": "Tobías Nul y Tomás Goldentul",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "ej01": "node src/ej01.js",
+    "ej02": "node src/ej01.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
+}
