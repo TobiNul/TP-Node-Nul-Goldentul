@@ -20,6 +20,7 @@
     "ej03": "node src/modules/ej03.js",
     "ej04": "node src/modules/ej04.js",
     "ej05": "node src/modules/ej05.js",
+    "ej06": "node src/modules/ej06.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   }
