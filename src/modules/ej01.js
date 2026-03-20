@@ -15,7 +15,10 @@ console.log(`Texto de Salida: "${TROaleucsE}"`);
 function concatInvert (texto1, texto2){
 
     let returnValue = '';
-    returnValue = texto2.reverse && texto1.reverse;
+        returnValue = (texto1 + texto2)
+        .split('')
+        .reverse()
+        .join('');
     return returnValue;
 
 }
