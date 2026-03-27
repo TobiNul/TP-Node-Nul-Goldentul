@@ -10,9 +10,9 @@ copiar(ARCHIVO_ENTRADA, ARCHIVO_SALIDA);
  function copiar(origen, destino){
  try {
    fs.copyFile(origen, destino);
-  console.log('archivo-entrada.txt was copied to archivo-salida.txt');
-} catch {
-  console.error('The file could not be copied');
+  console.log('archivo-entradafue copiado a archivo-salida.txt');
+} catch (error) {
+  console.error('El archivo no pudo ser copiado');
 }
 
 }
