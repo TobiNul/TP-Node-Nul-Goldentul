@@ -21,10 +21,13 @@
     "ej04": "node src/modules/ej04.js",
     "ej05": "node src/modules/ej05.js",
     "ej06": "node src/modules/ej06.js",
+    "ej07": "node src/modules/ej07.js",
+    "ej08": "node src/modules/ej08.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "dependencies": {
-    "axios": "^1.13.6"
+    "axios": "^1.13.6",
+    "country-currency-map": "^2.1.7"
   }
 }
